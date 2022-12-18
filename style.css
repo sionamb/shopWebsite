@@ -1,0 +1,25 @@
+header{
+    background-image: url(./images/backgrounds/mixedBerries.jpg);
+    background-size: cover;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    font-size: 5rem;
+    color: white;
+}
+main{
+    padding: 5% 5%;
+    background-image: linear-gradient(rgb(246, 234, 108), rgb(255, 255, 255));
+}
+.aboutMessage{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about img{
+    border-radius: 10%;
+}
