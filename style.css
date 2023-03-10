@@ -1,25 +1,40 @@
 header{
     background-image: url(./images/backgrounds/mixedBerries.jpg);
     background-size: cover;
-    height: 40vh;
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 header h1{
-    font-size: 5rem;
+    font-size: 10rem;
     color: white;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 10px 10px 10px black;
     font-family: 'Lobster', cursive;
 }
 header h2{
     color: white;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 10px 10px 10px black;
+    font-size: 3rem;
 }
 main{
     padding: 1% 5%;
-    background-image: linear-gradient(rgb(246, 234, 108), rgb(255, 255, 255));
+    background: black;
+}
+.about, .contact, .products{
+    border-radius: 50px;
+background: #e0e0e0;
+box-shadow: inset 29px 29px 58px #bebebe,
+            inset -29px -29px 58px #ffffff;
+    border-radius: 25px;
+    background-color: white;
+    padding: 2%;
+    margin: 2%;
+}
+.about h1, .contact h1, .products h1{
+    text-align: center;
+    font-size: 4rem;
 }
 .aboutMessage{
     text-align: center;
@@ -28,22 +43,20 @@ main{
     justify-content: center;
 }
 .about img{
-    border-radius: 10%;
+    margin: 5%;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  29px 29px 58px #bebebe,
+             -29px -29px 58px #ffffff;  
 }
-.openHours{
+.contact h3{
     text-align: center;
 }
-.address, .openHours{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.contactInfo{
-    display: flex;
-    justify-content: space-evenly;
-    align-content: space-between;
-}
-.contact h1{
+.contactSection{
     text-align: center;
+    margin: 4%;
+    border-radius: 30px;
+    background: #e0e0e0;
+    box-shadow:  29px 29px 58px #bebebe,
+             -29px -29px 58px #ffffff;
 }
