@@ -35,7 +35,6 @@ main{
 }
 .content, .gallery{
     border-radius: 50px;
-    background: #e0e0e0;
     box-shadow: inset 29px 29px 58px #bebebe,
                 inset -29px -29px 58px #ffffff;
     border-radius: 25px;
@@ -54,19 +53,29 @@ main{
     text-align: center;
     align-self: center;
     font-size: large;
+    
+}
+.aboutMessageText{
+    margin: 2%;
     border: 5px solid white;
     border-radius: 30px;
-    padding: 1%;
-    background: rgb(235, 235, 235);
+    padding: 2%;
+    background: white;
     box-shadow:  29px 29px 58px #7d7d7d,
              -29px -29px 58px #ffffff;
 }
 .about img, iframe{
-    margin: 5%;
+    /* margin: 5%;
     border: 5px solid white;
     border-radius: 30px;
     box-shadow:  29px 29px 58px #7d7d7d,
-             -29px -29px 58px #ffffff;
+             -29px -29px 58px #ffffff; */
+    border-radius: 30px;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 15px 15px 30px #c5c5c5,
+                -15px -15px 30px #ffffff;
 }
 .contact h3{
     text-align: center;
@@ -83,4 +92,32 @@ main{
 }
 .contactSection a{
     text-decoration: none;
+}
+
+button {
+    color: #090909;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    transition: all .3s;
+    box-shadow: 6px 6px 12px #c5c5c5,
+                -6px -6px 12px #ffffff;
+   }
+   
+   button:active {
+    color: #666;
+    box-shadow: inset 4px 4px 12px #c5c5c5,
+                inset -4px -4px 12px #ffffff;
+   }
+
+@media only screen and (max-width: 400){
+    main{
+        padding: 0%;
+    }
+    .contact{
+        padding: 0%;
+        margin: 0%;
+    }
 }
