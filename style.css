@@ -52,16 +52,19 @@ main{
 }
 .aboutMessage{
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-self: center;
     font-size: large;
+    border: 5px solid white;
+    border-radius: 30px;
+    padding: 1%;
+    background: rgb(235, 235, 235);
+    box-shadow:  29px 29px 58px #7d7d7d,
+             -29px -29px 58px #ffffff;
 }
 .about img, iframe{
     margin: 5%;
     border: 5px solid white;
     border-radius: 30px;
-    background: #e0e0e0;
     box-shadow:  29px 29px 58px #7d7d7d,
              -29px -29px 58px #ffffff;
 }
