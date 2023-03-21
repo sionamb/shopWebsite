@@ -100,10 +100,6 @@ iframe{
     box-shadow:  29px 29px 58px #bebebe,
              -29px -29px 58px #ffffff;
 }
-.contactSection a{
-    text-decoration: none;
-}
-
 button {
     color: #090909;
     padding: 0.7em 1.7em;
@@ -114,13 +110,12 @@ button {
     transition: all .3s;
     box-shadow: 6px 6px 12px #c5c5c5,
                 -6px -6px 12px #ffffff;
-   }
-   
-   button:active {
+}
+button:active {
     color: #666;
     box-shadow: inset 4px 4px 12px #c5c5c5,
                 inset -4px -4px 12px #ffffff;
-   }
+}
 
 @media only screen and (max-width: 400){
     main{
