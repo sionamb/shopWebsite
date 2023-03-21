@@ -42,29 +42,39 @@ main{
     padding: 2%;
     margin: 2%;
 }
-.about h1, .contact h1, .products h1, .gallery h1{
+.contact h1, .products h1, .gallery h1{
     text-align: center;
     font-size: 4rem;
 }
+.about h1{
+    color: white;
+    font-size: 7rem;
+    text-shadow: 10px 10px 10px black;
+    font-family: 'Lobster', cursive;
+}
 .about{
     text-align: center;
+    background-image: url(./images/exterior/outdoorProduce_cropped.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 .aboutMessage{
     text-align: center;
     align-self: center;
-    font-size: large;
-    
-}
-.aboutMessageText{
-    margin: 2%;
-    border: 5px solid white;
+    font-size: larger;
+    margin: 6%;
     border-radius: 30px;
     padding: 2%;
     background: white;
-    box-shadow:  29px 29px 58px #7d7d7d,
-             -29px -29px 58px #ffffff;
+    width: 70%;
+    box-shadow: 10px 10px 10px black;
 }
-.about img, iframe{
+iframe{
     /* margin: 5%;
     border: 5px solid white;
     border-radius: 30px;
