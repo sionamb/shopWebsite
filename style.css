@@ -52,6 +52,12 @@ main{
     text-shadow: 10px 10px 10px black;
     font-family: 'Lobster', cursive;
 }
+.gallery h1, .contact h1, .products h1{
+    color: black;
+    font-size: 7rem;
+    text-shadow: 10px 10px 10px rgb(149, 149, 149);
+    font-family: 'Lobster', cursive;
+}
 .about{
     text-align: center;
     background-image: url(./images/exterior/outdoorProduce_cropped.jpg);
