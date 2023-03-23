@@ -2,7 +2,7 @@ nav{
     font-size: large;
 }
 header{
-    background: black;
+    background: #e9f3f6;
     background-image: linear-gradient( to bottom, transparent, black), url(./images/backgrounds/mixedBerries.jpg);
     background-size: cover;
     height: 100vh;
@@ -35,10 +35,10 @@ main{
 }
 .content, .gallery{
     border-radius: 50px;
-    box-shadow: inset 29px 29px 58px #bebebe,
-                inset -29px -29px 58px #ffffff;
+    box-shadow: inset 29px 29px 58px #7b8296,
+                inset -29px -29px 58px #c9d1e8;
     border-radius: 25px;
-    background-color: white;
+    background-color: #a7b1cd;
     padding: 2%;
     margin: 2%;
 }
@@ -47,27 +47,33 @@ main{
     font-size: 4rem;
 }
 .about h1{
-    color: white;
-    font-size: 7rem;
+    color: #e9f3f6;
+    font-size: 8rem;
     text-shadow: 10px 10px 10px black;
     font-family: 'Lobster', cursive;
 }
 .gallery h1, .contact h1, .products h1{
-    color: black;
+    color: #1c191d;
     font-size: 7rem;
-    text-shadow: 10px 10px 10px rgb(149, 149, 149);
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.265);
     font-family: 'Lobster', cursive;
 }
 .about{
     text-align: center;
     background-image: url(./images/exterior/outdoorProduce_cropped.jpg);
+    background-color: rgba(0, 0, 0, 0.332);
+    background-blend-mode: multiply;
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     border-radius: 30px;
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
+    box-shadow: 10px 10px 10px black;
 }
 .aboutMessage{
     text-align: center;
@@ -78,7 +84,13 @@ main{
     padding: 2%;
     background: white;
     width: 70%;
+    border: 5px solid #CF923A;
     box-shadow: 10px 10px 10px black;
+}
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 iframe{
     /* margin: 5%;
@@ -86,15 +98,25 @@ iframe{
     border-radius: 30px;
     box-shadow:  29px 29px 58px #7d7d7d,
              -29px -29px 58px #ffffff; */
+    border: 10px solid white;
+    width: 90%;
+    height: 500px;
     border-radius: 30px;
-    background: #e8e8e8;
-    border: 1px solid #e8e8e8;
     transition: all .3s;
-    box-shadow: 15px 15px 30px #c5c5c5,
-                -15px -15px 30px #ffffff;
+    box-shadow: 15px 15px 30px #7b8296,
+                -15px -15px 30px #c9d1e8;
+}
+.contact{
+    margin: 7vh 0vh 7vh 0vh;
 }
 .contact h3{
     text-align: center;
+}
+.contactItems{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
 .contactSection{
     text-align: center;
@@ -102,16 +124,28 @@ iframe{
     padding: 2% 0% 2% 0%;
     border: 5px solid white;
     border-radius: 30px;
-    background: #e0e0e0;
-    box-shadow:  29px 29px 58px #bebebe,
-             -29px -29px 58px #ffffff;
+    background: #efefef;
+    /* box-shadow:  29px 29px 58px #bebebe,
+             -29px -29px 58px #ffffff; */
+    box-shadow: 15px 15px 30px #7b8296,
+    -15px -15px 30px #c9d1e8;
+}
+label{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.contactButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0% 20% 0% 20%;
 }
 button {
-    color: #090909;
+    color: white;
     padding: 0.7em 1.7em;
     font-size: 18px;
     border-radius: 0.5em;
-    background: #e8e8e8;
+    background: #276275;
     border: 1px solid #e8e8e8;
     transition: all .3s;
     box-shadow: 6px 6px 12px #c5c5c5,
