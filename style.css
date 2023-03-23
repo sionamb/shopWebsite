@@ -1,5 +1,6 @@
 nav{
     font-size: large;
+    background-color: #322E33;
 }
 header{
     background: #e9f3f6;
@@ -42,10 +43,6 @@ main{
     padding: 2%;
     margin: 2%;
 }
-.contact h1, .products h1, .gallery h1{
-    text-align: center;
-    font-size: 4rem;
-}
 .about h1{
     color: #e9f3f6;
     font-size: 8rem;
@@ -54,6 +51,7 @@ main{
 }
 .gallery h1, .contact h1, .products h1{
     color: #1c191d;
+    text-align: center;
     font-size: 7rem;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.265);
     font-family: 'Lobster', cursive;
