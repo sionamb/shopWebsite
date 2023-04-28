@@ -1,10 +1,11 @@
-nav{
+nav {
     font-size: large;
-    background-color: #322E33;
+    background-color: #322e33;
 }
-header{
+header {
     background: #e9f3f6;
-    background-image: linear-gradient( to bottom, transparent, black), url(./images/backgrounds/mixedBerries.jpg);
+    background-image: linear-gradient(to bottom, transparent, black),
+        url(./images/backgrounds/mixedBerries.jpg);
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -15,48 +16,50 @@ header{
     text-align: center;
     position: relative;
 }
-header h1{
+header h1 {
     font-size: 10rem;
     text-shadow: 10px 10px 10px black;
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
-header h2{
+header h2 {
     text-shadow: 10px 10px 10px black;
     font-size: 3rem;
 }
-header img{
+header img {
     filter: invert(100);
     position: absolute;
     bottom: 0;
     margin-bottom: 1%;
 }
-main{
+main {
     padding: 1% 5%;
     background: black;
 }
-.content, .gallery{
+.content,
+.gallery {
     border-radius: 50px;
-    box-shadow: inset 29px 29px 58px #7b8296,
-                inset -29px -29px 58px #c9d1e8;
+    box-shadow: inset 29px 29px 58px #7b8296, inset -29px -29px 58px #c9d1e8;
     border-radius: 25px;
-    background-color: #a7b1cd;
+    background-color: #cadcea;
     padding: 2%;
     margin: 2%;
 }
-.about h1{
+.about h1 {
     color: #e9f3f6;
     font-size: 8rem;
     text-shadow: 10px 10px 10px black;
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
-.gallery h1, .contact h1, .products h1{
+.gallery h1,
+.contact h1,
+.products h1 {
     color: #1c191d;
     text-align: center;
     font-size: 7rem;
     text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.265);
-    font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
-.about{
+.about {
     text-align: center;
     background-image: url(./images/exterior/outdoorProduce_cropped.jpg);
     background-color: rgba(0, 0, 0, 0.332);
@@ -71,9 +74,11 @@ main{
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 10px 10px 10px black;
+    box-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #fff,
+        0 0 15px #fff, 0 0 20px #fff, 0 0 15px #fff;
+    margin: 2%;
 }
-.aboutMessage{
+.aboutMessage {
     text-align: center;
     align-self: center;
     font-size: larger;
@@ -81,16 +86,16 @@ main{
     border-radius: 30px;
     padding: 2%;
     background: white;
-    width: 70%;
-    border: 5px solid #CF923A;
+    width: 80%;
+    border: 5px solid #cf923a;
     box-shadow: 10px 10px 10px black;
 }
-.map{
+.map {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-iframe{
+iframe {
     /* margin: 5%;
     border: 5px solid white;
     border-radius: 30px;
@@ -100,22 +105,21 @@ iframe{
     width: 90%;
     height: 500px;
     border-radius: 30px;
-    box-shadow: 15px 15px 30px #7b8296,
-                -15px -15px 30px #c9d1e8;
+    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
 }
-.contact{
+.contact {
     margin: 7vh 0vh 7vh 0vh;
 }
-.contact h3{
+.contact h3 {
     text-align: center;
 }
-.contactItems{
+.contactItems {
     display: flex;
     flex-direction: row;
     align-content: center;
     justify-content: center;
 }
-.contactSection{
+.contactSection {
     text-align: center;
     margin: 4%;
     padding: 2% 0% 2% 0%;
@@ -124,20 +128,18 @@ iframe{
     background: #efefef;
     /* box-shadow:  29px 29px 58px #bebebe,
              -29px -29px 58px #ffffff; */
-    box-shadow: 15px 15px 30px #7b8296,
-    -15px -15px 30px #c9d1e8;
+    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
 }
-label{
+label {
     font-size: 1.5rem;
     font-weight: bold;
 }
-.contactButton{
+.contactButton {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin: 0% 20% 0% 20%;
 }
-
 
 /* open source button from https://uiverse.io/adamgiebl/new-bird-34 */
 .cssbuttons-io-button {
@@ -158,9 +160,10 @@ label{
     position: relative;
     height: 2.8em;
     padding-right: 3.3em;
-  }
-  
-  .cssbuttons-io-button .icon {
+    width: 18rem;
+}
+
+.cssbuttons-io-button .icon {
     background: white;
     margin-left: 1em;
     position: absolute;
@@ -173,31 +176,31 @@ label{
     box-shadow: 0.1em 0.1em 0.6em 0.2em #276275;
     right: 0.3em;
     transition: all 0.3s;
-  }
-  
-  .cssbuttons-io-button:hover .icon {
+}
+
+.cssbuttons-io-button:hover .icon {
     width: calc(100% - 0.6em);
-  }
-  
-  .cssbuttons-io-button .icon svg {
+}
+
+.cssbuttons-io-button .icon svg {
     width: 1.1em;
     transition: transform 0.3s;
     color: #276275;
-  }
-  
-  .cssbuttons-io-button:hover .icon svg {
-    transform: translateX(0.1em);
-  }
-  
-  .cssbuttons-io-button:active .icon {
-    transform: scale(0.95);
-  }
+}
 
-@media only screen and (max-width: 400){
-    main{
+.cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+}
+
+.cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+}
+
+@media only screen and (max-width: 400) {
+    main {
         padding: 0%;
     }
-    .contact{
+    .contact {
         padding: 0%;
         margin: 0%;
     }
