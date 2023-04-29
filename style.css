@@ -4,7 +4,7 @@ nav {
 }
 header {
     background: #e9f3f6;
-    background-image: linear-gradient(to bottom, transparent, black),
+    background-image: linear-gradient(to bottom, transparent, #173641),
         url(./images/backgrounds/mixedBerries.jpg);
     background-size: cover;
     height: 100vh;
@@ -33,14 +33,15 @@ header img {
 }
 main {
     padding: 1% 5%;
-    background: black;
+    background: #173641;
 }
 .content,
 .gallery {
     border-radius: 50px;
-    box-shadow: inset 29px 29px 58px #7b8296, inset -29px -29px 58px #c9d1e8;
+    /* box-shadow: inset 29px 29px 58px #7b8296, inset -29px -29px 58px #c9d1e8; */
     border-radius: 25px;
     background-color: #cadcea;
+    background-image: url(./images/backgrounds/pexels-photo-3705687.jpg);
     padding: 2%;
     margin: 2%;
 }
@@ -139,6 +140,23 @@ label {
     flex-direction: row;
     justify-content: space-between;
     margin: 0% 20% 0% 20%;
+}
+
+.products {
+    background-color: white;
+    border: 5px solid black;
+    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
+    margin: 0% 10% 3% 10%;
+    padding: 5%;
+    text-align: center;
+}
+.productHeader {
+    background: white;
+    position: relative;
+    border: 5px solid #276275;
+    box-shadow: 10px 10px 10px black;
+    margin: 20px;
+    padding: 2%;
 }
 
 /* open source button from https://uiverse.io/adamgiebl/new-bird-34 */
