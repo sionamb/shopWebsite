@@ -1,360 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
-            rel="stylesheet"
-        />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
-        />
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fleur+De+Leah&display=swap" rel="stylesheet">
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-            crossorigin="anonymous"
-        ></script>
-        <link rel="stylesheet" href="style.css" />
-        <title>The Wood'n Spoon</title>
-    </head>
-    <body>
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"
-                    ><img
-                        src="./images/icons/spoon.png"
-                        alt="Black spoon icon"
-                        height="30px"
-                /></a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                >
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a
-                                class="nav-link active"
-                                aria-current="page"
-                                href="#"
-                                >Home</a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#about">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contact">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#products">Products</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#gallery"
-                                >Product Gallery</a
-                            >
-                        </li>
-                    </ul>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>The Wood'n Spoon</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="./images/icons/spoon.png" alt="Black spoon icon" height="30px" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#products">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">Product Gallery</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <h1>The Wood'n Spoon</h1>
+      <h2>Keweenaw's Bounty</h2>
+      <h3> Jams, Jellies, Syrups, Bakery, <br /> Copper, Woodenware and <br /> More! </h3>
+      <a href="#main">
+        <img src="./images/icons/downArrow.png" alt="Down Arrow" width="75" />
+      </a>
+    </header>
+    <main id="main">
+      <div class="content">
+        <div class="about" id="about">
+          <div class="aboutMessage">
+            <h1>About Us</h1>
+            <p> The Wood'n Spoon shop located in Mohawk, Michigan features handmade jams, jellies and syrups, naturally grown produce, and 
+                baked goods from Michigan's Keweenaw Peninsula. Many of the wild berries used for the jams, jellies, and syrups are picked 
+                in the Keweenaw forests. We grow our own berries for their preserves and fresh produce on their 70-acre farm where we use 
+                no chemical pesticides and as many natural practices as possible. In addition to these products, we offer many local 
+                specialties including native copper, agates, datolite, books about the Upper Peninsula, postcards, maple syrup, fruit cakes, 
+                and honey.
+              <hr />If you're interested in visiting The Wood'n Spoon shop you can find us at 174 Stanton Ave, Mohawk, MI 49950. 
+              We are open Monday through Saturday from 10:00 AM to 5:00 PM (seasonally).
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="contact" id="contact">
+          <h1>Contact Us</h1>
+          <br />
+          <div class="contactItems">
+            <div class="map col-xxl-6 col-md-7 col-12">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5411.266491516916!2d-88.37605396177518!3d47.30196629999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d50a2eacd01da47%3A0x2d85264b90411ade!2sWood&#39;n%20Spoon!5e0!3m2!1sen!2sus!4v1671391033950!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-        </nav>
-        <header>
-            <h1>The Wood'n Spoon</h1>
-            <h2>Keweenaw's Bounty</h2>
-            <h3>
-                Jams, Jellies, Syrups, Bakery, <br />
-                Copper, Woodenware and <br />
-                More!
-            </h3>
-            <a href="#main"
-                ><img
-                    src="./images/icons/downArrow.png"
-                    alt="Down Arrow"
-                    width="75"
-            /></a>
-        </header>
-        <main id="main">
-            <div class="content">
-                <div class="about" id="about">
-                    
-                    <div class="aboutMessage">
-                      <h1>About Us</h1>
-                        <p>
-                            The Wood'n Spoon shop located in Mohawk, Michigan
-                            features handmade jams, jellies and syrups,
-                            naturally grown produce, and baked goods from
-                            Michigan's Keweenaw Peninsula. Many of the wild
-                            berries used for the jams, jellies, and syrups are
-                            picked in the Keweenaw forests. They grow their own
-                            berries for their preserves and fresh produce on
-                            their 70-acre farm where they use no chemical
-                            pesticides and as many natural practices as
-                            possible. In addition to these products, they offer
-                            many local specialties including native copper,
-                            agates, datolite, books about the Upper Peninsula,
-                            postcards, maple syrup, fruit cakes, and
-                            honey. <hr />If you’re interested in visiting  The Wood’n Spoon shop you can find
-                            them at 174 Stanton Ave, Mohawk, MI 49950-976913.
-                            They are open Monday through Saturday from 10:00 AM
-                            to 5:00 PM (seasonally).
-                        </p>
-                    </div>
-                </div>
-                <br /><br />
-
-                <div class="contact" id="contact">
-                    <h1>Contact Us</h1>
-                    <br />
-                    <div class="contactItems">
-                        <div class="map col-xxl-6 col-md-7 col-12">
-                            <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5411.266491516916!2d-88.37605396177518!3d47.30196629999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4d50a2eacd01da47%3A0x2d85264b90411ade!2sWood&#39;n%20Spoon!5e0!3m2!1sen!2sus!4v1671391033950!5m2!1sen!2sus"
-                                allowfullscreen=""
-                                loading="lazy"
-                                referrerpolicy="no-referrer-when-downgrade"
-                            ></iframe>
-                        </div>
-                        <div class="contactInfo col-xxl-6 col-md-5 col-12">
-                            <div class="contactSection">
-                                <h3>Hours</h3>
-                                <h5>
-                                    Open Seasonally ~ May-October<br />
-                                    Monday - Saturday: 10 am to 5 pm <br />
-                                    Sunday: Closed
-                                </h5>
-                                <hr />
-                                <h3>Address</h3>
-                                <h5>174 Stanton Ave, Mohawk, MI 49950</h5>
-                                <hr />
-                                <div class="contactButton">
-                                    <label for="btnPhone">Phone:</label>
-                                    <a href="tel:906-337-2435">
-                                        <button
-                                            class="cssbuttons-io-button"
-                                            id="btnPhone"
-                                        >
-                                            +1(906) 337-2435
-                                            <div class="icon">
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 24 24"
-                                                    width="24"
-                                                    height="24"
-                                                >
-                                                    <path
-                                                        fill="none"
-                                                        d="M0 0h24v24H0z"
-                                                    ></path>
-                                                    <path
-                                                        fill="currentColor"
-                                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                                    ></path>
-                                                </svg>
-                                            </div>
-                                        </button>
-                                    </a>
-                                </div>
-                                <hr />
-                                <div class="contactButton">
-                                    <label for="btnEmail">Email: </label>
-                                    <a href="mailto:farmerjamman@gmail.com">
-                                        <button
-                                            class="cssbuttons-io-button"
-                                            id="btnEmail"
-                                        >
-                                            farmerjamman@gmail.com
-                                            <div class="icon">
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 24 24"
-                                                    width="24"
-                                                    height="24"
-                                                >
-                                                    <path
-                                                        fill="none"
-                                                        d="M0 0h24v24H0z"
-                                                    ></path>
-                                                    <path
-                                                        fill="currentColor"
-                                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                                    ></path>
-                                                </svg>
-                                            </div>
-                                        </button>
-                                    </a>
-                                </div>
-                                <hr />
-                                <div class="contactButton">
-                                    <label for="btnFacebook">Facebook:</label>
-                                    <a
-                                        href="https://www.facebook.com/TheWoodnSpoon/"
-                                    >
-                                        <button
-                                            class="cssbuttons-io-button"
-                                            id="btnFacebook"
-                                        >
-                                            @TheWoodnSpoon
-                                            <div class="icon">
-                                                <svg
-                                                    xmlns="http://www.w3.org/2000/svg"
-                                                    viewBox="0 0 24 24"
-                                                    width="24"
-                                                    height="24"
-                                                >
-                                                    <path
-                                                        fill="none"
-                                                        d="M0 0h24v24H0z"
-                                                    ></path>
-                                                    <path
-                                                        fill="currentColor"
-                                                        d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
-                                                    ></path>
-                                                </svg>
-                                            </div>
-                                        </button>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <br />
-                <div class="products" id="products">
-                  <div class="productHeader">
-                    <h1>Products</h1>
-                    <hr />
-                    <p>
-                        At Wood'n Spoon, we craft delicious jams, jellies, syrups, cookies, and breads with fresh and natural ingredients. 
-                        We grow our own berries and produce on our 70-acre farm without any chemicals, and we also harvest wild berries 
-                        from the beautiful forests of the Keweenaw. We offer over 80 different varieties of jams, jellies, and butters 
-                        made from fruit and berries grown on Michigan's Keweenaw Peninsula without any chemicals. You can also try our 
-                        Thimbleberry Walnut Cookies or our berry preserves and taste the difference!
-                    </p>
-                  </div>
-                    <br>
-                    <h2>&nbspJams&nbsp</h2>
-                    <p>Wild Thimbleberry (4 sizes), Wild Blueberry, Wild Blackberry, Raspberry, Wild Strawberry, Strawberry-Rhubarb, and Wild Raspberry</p>
-                    
-                    <h2>&nbspJellies&nbsp</h2>
-                    <p>Wild Blackberry, Wild Chokecherry, Wild Thimbleberry, and Wild Pincherry</p>
-                    
-                    <h2>&nbspSyrups&nbsp</h2>
-                    <p>Wild Thimbleberry, Wild Blueberry, and Raspberry</p>
-                    
-                    <h2>&nbspChow Chow&nbsp</h2>
-                    <p>We offer hot and regular options for this sweet and sour pickle mixture made with onions, peppers, cauliflower, vinegar, and sugar.</p>
-                    
-                    <h2>&nbspCookies&nbsp</h2>
-                    <p>Moms Gingersnaps, Thimbleberry Walnut, Snickerdoodles, Monster, Cardamon-Honey Snaps</p>
-
-                    <h2>&nbspBreads&nbsp</h2>
-                    <p>Limpa - A Swedish rye bread flavored with molasses and anise seeds.</p>
-                    <p>Potato Buttermilk - A soft and fluffy bread made with mashed potatoes and buttermilk.</p>
-                    <p>Sourdough White - A classic white bread made with sourdough starter.</p>
-                    <p>Whole Wheat - A hearty bread made with whole wheat flour. </p>
-                    
-                    <hr><p>In addition to bakery and preserves, the Wood'n Spoon offers a variety of rocks, including native copper, datolite, mohawkite, and agates.</p>
-                </div>
-            </div>
-
-            <hr />
-            <div class="gallery row" id="gallery">
-                <h1>Product Gallery</h1>
+            <div class="contactInfo col-xxl-6 col-md-5 col-12">
+              <div class="contactSection">
+                <h3>Hours</h3>
+                <h5> Open Seasonally ~ May-October <br /> Monday - Saturday: 10 am to 5 pm <br /> Sunday: Closed </h5>
                 <hr />
-                <br />
-                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-                    <img
-                        src="./images/interior/cookies.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Cookies Display"
-                    />
-
-                    <img
-                        src="./images/interior/woodenWare.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Woodenware Display"
-                    />
-
-                    <img
-                        src="./images/interior/copperBracelets.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Yarn Display"
-                    />
+                <h3>Address</h3>
+                <h5>174 Stanton Ave, Mohawk, MI 49950</h5>
+                <hr />
+                <div class="contactButton">
+                  <label for="btnPhone">Phone:</label>
+                  <a href="tel:906-337-2435">
+                    <button class="cssbuttons-io-button" id="btnPhone"> +1(906) 337-2435 <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </a>
                 </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img
-                        src="./images/interior/thimbleberryJam.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Shop Owner Holding Jar of Thimbleberry Jam"
-                    />
-
-                    <img
-                        src="./images/interior/jellies.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Yarn Display"
-                    />
-
-                    <img
-                        src="./images/interior/yarn.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Yarn Display"
-                    />
+                <hr />
+                <div class="contactButton">
+                  <label for="btnEmail">Email: </label>
+                  <a href="mailto:farmerjamman@gmail.com">
+                    <button class="cssbuttons-io-button" id="btnEmail"> farmerjamman@gmail.com <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </a>
                 </div>
-
-                <div class="col-lg-4 mb-4 mb-lg-0">
-                    <img
-                        src="./images/interior/copper.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Copper Display"
-                    />
-
-                    <img
-                        src="./images/interior/jamCounter.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Jellies Display"
-                    />
-
-                    <img
-                        src="./images/interior/chowChow.png"
-                        class="w-100 shadow-1-strong rounded mb-4"
-                        alt="Jellies Display"
-                    />
+                <hr />
+                <div class="contactButton">
+                  <label for="btnFacebook">Facebook:</label>
+                  <a href="https://www.facebook.com/TheWoodnSpoon/">
+                    <button class="cssbuttons-io-button" id="btnFacebook"> @TheWoodnSpoon <div class="icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                          <path fill="none" d="M0 0h24v24H0z"></path>
+                          <path fill="currentColor" d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"></path>
+                        </svg>
+                      </div>
+                    </button>
+                  </a>
                 </div>
+              </div>
             </div>
-        </main>
-        <footer class="footer mt-auto py-3 bg-light">
-            <div class="container text-center">
-                <span class="text-muted"
-                    >Email:
-                    <a href="mailto:farmerjamman@gmail.com"
-                        >farmerjamman@gmail.com</a
-                    >
-                    <br />Phone:
-                    <a href="tel:906-337-2435" class="phone"
-                        >+1(906)337-2435</a
-                    ></span
-                >
-            </div>
-        </footer>
-    </body>
+          </div>
+        </div>
+        <br />
+        <div class="products" id="products">
+          <div class="productHeader">
+            <h1>Products</h1>
+            <hr />
+            <p> At Wood'n Spoon, we craft delicious jams, jellies, syrups, cookies, and breads with fresh and natural ingredients. We grow our own berries and produce on our 70-acre farm without any chemicals, and we also harvest wild berries from the beautiful forests of the Keweenaw. We offer over 80 different varieties of jams, jellies, and butters made from fruit and berries grown on Michigan's Keweenaw Peninsula without any chemicals. You can also try our Thimbleberry Walnut Cookies or our berry preserves and taste the difference! </p>
+          </div>
+          <br>
+          <h2>&nbspJams&nbsp</h2>
+          <p>Wild Thimbleberry (4 sizes), Wild Blueberry, Wild Blackberry, Raspberry, Wild Strawberry, Strawberry-Rhubarb, and Wild Raspberry</p>
+          <h2>&nbspJellies&nbsp</h2>
+          <p>Wild Blackberry, Wild Chokecherry, Wild Thimbleberry, and Wild Pincherry</p>
+          <h2>&nbspSyrups&nbsp</h2>
+          <p>Wild Thimbleberry, Wild Blueberry, and Raspberry</p>
+          <h2>&nbspChow Chow&nbsp</h2>
+          <p>We offer hot and regular options for this sweet and sour pickle mixture made with onions, peppers, cauliflower, vinegar, and sugar.</p>
+          <h2>&nbspCookies&nbsp</h2>
+          <p>Moms Gingersnaps, Thimbleberry Walnut, Snickerdoodles, Monster, Cardamon-Honey Snaps</p>
+          <h2>&nbspBreads&nbsp</h2>
+          <p>Limpa - A Swedish rye bread flavored with molasses and anise seeds.</p>
+          <p>Potato Buttermilk - A soft and fluffy bread made with mashed potatoes and buttermilk.</p>
+          <p>Sourdough White - A classic white bread made with sourdough starter.</p>
+          <p>Whole Wheat - A hearty bread made with whole wheat flour. </p>
+          <h2 id="productEnd">and many more!</h2>
+          
+          <div class="productFooter">
+            <p>In addition to bakery and preserves, the Wood'n Spoon offers a selection of rocks, such as native copper, datolite, 
+            mohawkite, and agates, as well as woodenware and jewelry.</p>
+          </div>
+          
+        </div>
+      </div>
+      <hr />
+      <div class="gallery row" id="gallery">
+        <h1>Product Gallery</h1>
+        <hr />
+        <br />
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img src="./images/interior/cookies.png" class="w-100 shadow-1-strong rounded mb-4" alt="Cookies Display" />
+          <img src="./images/interior/woodenWare.png" class="w-100 shadow-1-strong rounded mb-4" alt="Woodenware Display" />
+          <img src="./images/interior/copperBracelets.png" class="w-100 shadow-1-strong rounded mb-4" alt="Yarn Display" />
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="./images/interior/thimbleberryJam.png" class="w-100 shadow-1-strong rounded mb-4" alt="Shop Owner Holding Jar of Thimbleberry Jam" />
+          <img src="./images/interior/jellies.png" class="w-100 shadow-1-strong rounded mb-4" alt="Yarn Display" />
+          <img src="./images/interior/yarn.png" class="w-100 shadow-1-strong rounded mb-4" alt="Yarn Display" />
+        </div>
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img src="./images/interior/copper.png" class="w-100 shadow-1-strong rounded mb-4" alt="Copper Display" />
+          <img src="./images/interior/jamCounter.png" class="w-100 shadow-1-strong rounded mb-4" alt="Jellies Display" />
+          <img src="./images/interior/chowChow.png" class="w-100 shadow-1-strong rounded mb-4" alt="Jellies Display" />
+        </div>
+      </div>
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+      <div class="container text-center">
+        <span class="text-muted">Email: <a href="mailto:farmerjamman@gmail.com">farmerjamman@gmail.com</a>
+          <br />Phone: <a href="tel:906-337-2435" class="phone">+1(906)337-2435</a>
+        </span>
+      </div>
+    </footer>
+  </body>
 </html>
