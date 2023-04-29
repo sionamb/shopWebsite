@@ -4,7 +4,7 @@ nav {
 }
 header {
     background: #e9f3f6;
-    background-image: linear-gradient(to bottom, transparent, #173641),
+    background-image: linear-gradient(to bottom, transparent, black),
         url(./images/backgrounds/mixedBerries.jpg);
     background-size: cover;
     height: 100vh;
@@ -33,7 +33,8 @@ header img {
 }
 main {
     padding: 1% 5%;
-    background: #173641;
+    background-image: linear-gradient(to bottom, black, #173641);
+    /* background: #173641; */
 }
 .content,
 .gallery {
@@ -42,29 +43,32 @@ main {
     border-radius: 25px;
     background-color: #cadcea;
     background-image: url(./images/backgrounds/pexels-photo-3705687.jpg);
+    background-size: contain;
+    border: 5px solid #322e33;
+    border: linear-gradient(to bottom, black, #173641);
     padding: 2%;
     margin: 2%;
 }
-.about h1 {
+.about h1,
+.products h1 {
+    color: black;
+    font-size: 6rem;
+    font-family: "Fleur De Leah", cursive;
+}
+.gallery h1,
+.contact h1 {
+    text-align: center;
     color: #e9f3f6;
     font-size: 8rem;
     text-shadow: 10px 10px 10px black;
     font-family: "Lobster", cursive;
-}
-.gallery h1,
-.contact h1,
-.products h1 {
-    color: #1c191d;
-    text-align: center;
-    font-size: 7rem;
-    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.265);
-    font-family: "Lobster", cursive;
+    font-family: "Fleur De Leah", cursive;
 }
 .about {
     text-align: center;
     background-image: url(./images/exterior/outdoorProduce_cropped.jpg);
     background-color: rgba(0, 0, 0, 0.332);
-    background-blend-mode: multiply;
+    /* background-blend-mode: multiply; */
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -75,14 +79,15 @@ main {
     flex-direction: column;
     align-content: center;
     justify-content: center;
-    box-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #fff,
-        0 0 15px #fff, 0 0 20px #fff, 0 0 15px #fff;
+    border: 5px solid #322e33;
+    /* box-shadow: 0 0 5px #fff, 0 0 2px #fff, 0 0 10px #fff, 0 0 10px #fff,
+        0 0 15px #fff, 0 0 20px #fff, 0 0 15px #fff; */
     margin: 2%;
 }
 .aboutMessage {
     text-align: center;
     align-self: center;
-    font-size: larger;
+    font-size: large;
     margin: 6%;
     border-radius: 30px;
     padding: 2%;
@@ -102,11 +107,11 @@ iframe {
     border-radius: 30px;
     box-shadow:  29px 29px 58px #7d7d7d,
              -29px -29px 58px #ffffff; */
-    border: 10px solid white;
+    border: 5px solid #cf923a;
     width: 90%;
     height: 500px;
     border-radius: 30px;
-    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
+    /* box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8; */
 }
 .contact {
     margin: 7vh 0vh 7vh 0vh;
@@ -124,12 +129,12 @@ iframe {
     text-align: center;
     margin: 4%;
     padding: 2% 0% 2% 0%;
-    border: 5px solid white;
+    border: 5px solid #cf923a;
     border-radius: 30px;
     background: #efefef;
     /* box-shadow:  29px 29px 58px #bebebe,
              -29px -29px 58px #ffffff; */
-    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
+    /* box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8; */
 }
 label {
     font-size: 1.5rem;
@@ -145,10 +150,15 @@ label {
 .products {
     background-color: white;
     border: 5px solid black;
-    box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8;
+    /* box-shadow: 15px 15px 30px #7b8296, -15px -15px 30px #c9d1e8; */
     margin: 0% 10% 3% 10%;
     padding: 5%;
     text-align: center;
+}
+.products h2 {
+    font-family: "Fleur De Leah", cursive;
+    text-decoration: underline;
+    font-size: 3rem;
 }
 .productHeader {
     background: white;
