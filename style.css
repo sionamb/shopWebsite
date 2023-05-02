@@ -243,3 +243,81 @@ label {
         font-size: 4rem;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    main {
+        padding: 0%;
+        margin: 0%;
+    }
+    .aboutMessage {
+        width: 100%;
+    }
+    .contact {
+        padding: 0%;
+        margin: 0%;
+    }
+    header h1 {
+        font-size: 5rem;
+    }
+    iframe,
+    .map {
+        height: 40vh;
+        width: 100%;
+        margin: 0% 3% 0% 3%;
+    }
+    .contactItems {
+        display: block;
+    }
+    .about {
+        margin-top: 0;
+        padding: 5%;
+        height: 120%;
+    }
+    .contactInfo {
+        width: 100%;
+    }
+    .contactButton {
+        margin: 0rem 5rem 0rem 5rem;
+        padding: 2%;
+    }
+    .contactButton button {
+        margin: 2%;
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+    .contactButton label {
+    }
+    .about h1,
+    .products h1,
+    .gallery h1,
+    .contact h1 {
+        font-size: 4rem;
+    }
+}
+
+@media only screen and (max-width: 1650px) {
+    .about {
+        margin-top: 0;
+        padding: 5%;
+        height: 120%;
+    }
+    .contactButton {
+        margin: 0rem 3rem 0rem 3rem;
+        padding: 2%;
+
+        justify-content: space-between;
+    }
+    .contactButton button {
+        margin: 2%;
+        width: 20rem;
+        font-size: 1.1rem;
+    }
+    .contactButton label {
+    }
+    .about h1,
+    .products h1,
+    .gallery h1,
+    .contact h1 {
+        font-size: 4rem;
+    }
+}
